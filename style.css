@@ -1,0 +1,22 @@
+.hover-btn:hover{
+   color: black;
+   font-weight: 600;
+   background-color: oklch(.968 .007 247.896);
+}
+
+.text-light-blue{
+    color:oklch(.554 .046 257.417)
+}
+
+.bg-light-blue{
+  background-color:oklch(.554 .046 257.417)
+}
+
+.hover-btn-2:hover{
+    background-color: oklch(.968 .007 247.896);
+}
+
+.hover-btn-3:hover{
+    font-size:20px;
+     transform: translatey(-5px );
+}
