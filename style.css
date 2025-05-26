@@ -1,7 +1,7 @@
 .hover-btn:hover{
-   color: black;
+   color:rgb(255, 255, 255) !important;
    font-weight: 600;
-   background-color: oklch(.968 .007 247.896);
+   /* background-color: oklch(.968 .007 247.896); */
 }
 
 .text-light-blue{
@@ -14,9 +14,55 @@
 
 .hover-btn-2:hover{
     background-color: oklch(.968 .007 247.896);
+    color:black !important ;
 }
 
 .hover-btn-3:hover{
-    font-size:20px;
-     transform: translatey(-5px );
+    transform: translatey(-10px );
 }
+
+.hover_img:hover{
+    margin: 0;
+    padding: 0;
+    border:4px dotted lightblue;
+}
+
+.logo{     
+    display:inline-block; 
+}
+
+.logo:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #ffffff;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.logo:hover:after {
+    transform: scaleX(1);
+}
+
+.us:after{
+    transform-origin: 0% 50%;
+}
+
+.us:hover:after {
+    transform: scaleX(1);
+}
+
+.us:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #ffffff;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.us{     
+    display:inline-block; 
+}
+
+
+
+
