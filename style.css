@@ -17,14 +17,21 @@
     color:black !important ;
 }
 
+.n-1{
+    backdrop-filter: blur(10px)
+}
+
 .hover-btn-3:hover{
-    transform: translatey(-10px );
+    transform: scale(1.4 );
+    transition: all 0.5s;
+
+    /* transform: translatey(-10px ); */
 }
 
 .hover_img:hover{
     margin: 0;
     padding: 0;
-    border:4px dotted lightblue;
+    border:4px dotted lightblue !important;
 }
 
 .logo{     
@@ -63,6 +70,93 @@
     display:inline-block; 
 }
 
+.skill-card {
+    background-image: url('img/bg2.webp'); 
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+.skill-img {
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+ 
+.s-1:hover{
+    border:1px solid rgb(33 150 243) !important;
+}
+.s-2:hover{
+    border:1px solid rgb(255 75 0) !important;
+}
+.s-3:hover{
+    border:1px solid rgb(101 154 210) !important;
+}
+.s-4:hover{
+    border:1px solid rgb(255 193 7) !important;
+}
+.s-5:hover{
+    border:1px solid rgb(0 0 0) !important;
+}
+.s-6:hover{
+    border:1px solid rgb(71 146 65) !important;
+}
+.s-7:hover{
+    border:1px solid rgb(90 218 253) !important;
+}
+.s-8:hover{
+    border:1px solid rgb(238 80 50) !important;
+}
+.s-9:hover{
+    border:1px solid rgb(0, 57, 126) !important;
+}
+.s-10:hover{
+    border:1px solid rgb(94 59 127) !important;
+}
+.s-11:hover{
+    border:1px solid rgb(120 207 245) !important;
+}
+.s-12:hover{
+    border-top:1px solid rgb(38 130 255) !important;
+    border-left:1px solid rgb(38 130 255) !important;
+    border-bottom:1px solid rgb(255 205 0) !important;
+    border-right:1px solid rgb(255 205 0) !important;
+}
 
 
 
+
+ body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #000;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 500px;
+      height: 500px;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+    }
