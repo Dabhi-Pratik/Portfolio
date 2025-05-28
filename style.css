@@ -1,7 +1,9 @@
 .hover-btn:hover{
    color:rgb(255, 255, 255) !important;
    font-weight: 600;
-   /* background-color: oklch(.968 .007 247.896); */
+
+   transform: scale(1.4);
+    transition: all 0.5s;
 }
 
 .text-light-blue{
@@ -83,7 +85,7 @@
 
 .skill-img {
     height: 70px;
-    background-color: rgba(255, 255, 255, 0.8);
+   
 }
  
 .s-1:hover{
@@ -160,3 +162,29 @@
       display: block;
       width: 100%;
     }
+
+
+.hover-btn-4:hover{
+    box-shadow: oklch(0.88 0.13 89.98) 0px 10px 20px, oklch(0.88 0.13 89.98) 0px 6px 6px;
+    border: 1px solid oklch(0.88 0.13 89.98);
+    border-radius: 5px;
+    
+}
+
+.hover-btn-5:hover{
+    box-shadow: oklch(0.6 0.19 284.23) 0px 10px 20px, oklch(0.6 0.19 284.23) 0px 6px 6px;
+    border:1px solid oklch(0.6 0.19 284.23) ;
+    border-radius: 5px;
+}
+
+.hover-btn-6:hover{
+    box-shadow: oklch(0.33 0.06 269.51) 0px 10px 20px, oklch(0.33 0.06 269.51) 0px 6px 6px;
+    border: 1px solid oklch(0.33 0.06 269.51);
+    border-radius: 5px;
+}
+
+.hover-btn-7:hover{
+    box-shadow:lch(29.56% 19.6 241.76) 0px 10px 20px, hsl(197.26deg 61.34% 23.33%) 0px 6px 6px;
+    border: 1px solid lch(29.56% 19.6 241.76);
+    border-radius: 5px;
+}
