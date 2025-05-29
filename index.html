@@ -11,6 +11,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Portfolio</title>
 </head>
 
@@ -56,7 +58,8 @@
     <section>
         <div class="container-lg my-5 ">
             <div class="row">
-                <div class="col-md-12 col-lg-6 ">
+                <div class="col-md-12 col-lg-6 " data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="1000" data-aos-easing="linear">
                     <div class="align-items-center">
                         <h1 class="fw-bold">Hi,I am Pratik Dabhi</h1>
                         <h3 class="">Full-Stack Devloper</h3>
@@ -74,7 +77,7 @@
 
                         </div>
 
-                        <div class="d-flex flex-wrap gap-3 mt-3 ">
+                        <div class="d-flex flex-wrap gap-3 mt-3 " data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">
                             <a href="https://github.com/Dabhi-Pratik"
                                 class="bg-light rounded-circle p-1 text-decoration-none hover-btn-3">
                                 <i class="ri-github-fill text-dark"></i>
@@ -94,7 +97,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-6 g-3">
+                <div class="col-md-12 col-lg-6 g-3" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="1000" data-aos-easing="linear">
                     <div class="">
                         <img src="img/profile_img.jpg" style="width: 300px;" alt="" class="rounded-circle hover_img ">
                     </div>
@@ -107,15 +111,18 @@
 
     <section class="">
         <div class="container-lg my-5">
-            <h1 class="us" id="about">About</h1>
+            <h1 class="us" id="about" data-aos="fade-up-right" data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1000" data-aos-easing="linear">About</h1>
 
             <div class="row my-2">
-                <div class="col-md-12 col-lg-2">
+                <div class="col-md-12 col-lg-2" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                    data-aos-duration="1000" data-aos-easing="linear">
                     <div class="mx-3 my-5">
                         <img src="img/profile_img.jpg" alt="" class="rounded-circle hover_img" style="width: 150px;">
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-8">
+                <div class="col-md-12 col-lg-8" data-aos="zoom-out-up" data-aos-duration="1000"
+                    data-aos-easing="linear">
                     <div class="">
                         <h5 class="mt-4 us ">Who I am....?</h5>
                         <p class="text-light-blue lh-lg">I am Dabhi Pratik.I’m a dedicated Frontend Developer and an
@@ -133,13 +140,17 @@
 
     <section class="py-2 ">
         <div class="container">
-            <h1 class="text-center us">My Skill</h1>
-            <p class="text-light-blue lh-lg mt-2">All the languages, libraries and frameworks, code or no code, that I
+            <h1 class="text-center us" data-aos="fade-up-right" data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1000" data-aos-easing="linear">My Skill</h1>
+            <p class="text-light-blue lh-lg mt-2" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1000" data-aos-easing="linear">All the languages, libraries and frameworks, code or
+                no code, that I
                 know and that I wish to offer in my services... I am of course open to new discoveries and to learning
                 other technologies if necessary for your project!</p>
-            <div class="row g-3">
-                <div class="col-lg-3 col-md-4 col-sm-4 ">
-                    <div class="skill-card text-center border rounded-4 s-1">
+            <div class="row g-3" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000"
+                data-aos-easing="linear">
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <div class="skill-card text-center border rounded-4 s-1" >
                         <img src="img/css-3.png" alt="" class="skill-img  p-1 mt-2 rounded-4">
                         <h5 class="mt-2 text-white">CSS</h5>
                     </div>
@@ -221,15 +232,19 @@
 
     <section class="mt-5">
         <div class="container">
-            <h1 class="text-center us" id="project">My Project</h1>
-            <p class="text-light-blue lh-lg mt-2">This project showcases front-end web development skills by recreating
+            <h1 class="text-center us" id="project" data-aos="fade-up-right" data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1000" data-aos-easing="linear">My Project</h1>
+            <p class="text-light-blue lh-lg mt-2" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1000" data-aos-easing="linear">This project showcases front-end web development
+                skills by recreating
                 the landing pages of Burger King, Netflix, and Google using HTML and CSS. Additionally, it includes a
                 custom responsive website built with Bootstrap to demonstrate modern design and layout techniques.</p>
 
-            <swiper-container class="mySwiper" pagination="true" effect="coverflow"             grab-cursor="true"
+            <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true"
                 centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0"
                 coverflow-effect-depth="100" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true"
-                autoplay-delay="2300" autoplay-disable-on-interaction="false">
+                autoplay-delay="2300" autoplay-disable-on-interaction="false" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-easing="linear">
 
                 <swiper-slide class=" hover-btn-4">
                     <div class="card mx-auto" style="background-color:transparent; color: white;">
@@ -244,7 +259,8 @@
                                 functionality. Ideal as a template or portfolio piece for e-commerce projects.
                             </p>
                             <div class="text-center">
-                                <a href="https://github.com/Dabhi-Pratik/Organic-Grocery" class="btn btn-dark hover-btn-2">
+                                <a href="https://github.com/Dabhi-Pratik/Organic-Grocery"
+                                    class="btn btn-dark hover-btn-2">
                                     <i class="ri-github-fill "></i>
                                     Get Project Source
                                 </a>
@@ -308,7 +324,7 @@
                         </div>
                     </div>
                 </swiper-slide>
-                
+
                 <swiper-slide class=" hover-btn-7">
                     <div class="card mx-auto" style="background-color:transparent; color: white;">
                         <img src="img/p-4.png" class="card-img-top" alt="">
@@ -341,14 +357,76 @@
 
     <section class="mt-5">
         <div class="container">
-            <h1 class="text-center us" id="project">Education</h1>
+            <h1 class="text-center us" id="project" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1000" data-aos-easing="linear">Education</h1>
             <p class="text-light-blue lh-lg mt-2">This project showcases front-end web development skills by recreating
                 the landing pages of Burger King, Netflix, and Google using HTML and CSS. Additionally, it includes a
                 custom responsive website built with Bootstrap to demonstrate modern design and layout techniques.</p>
+            <div class="container-md ">
+                <div class="row g-3">
+
+                    <div class="col-lg-6 col-md-12 p-4">
+                        <div class="row border hover-card-1" data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-easing="linear">
+                            <div class="col-lg-6 col-md-12 p-3">
+                                <img src="img/logo-white.png" alt="" class="img-fluid  ">
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-2">
+                                <h4 class="fw-bold"
+                                    style="background:linear-gradient(to right, #24CEEE, #537FF0, #DBA1FA);color: transparent;background-clip: text;">
+                                    Full-Stack Devloper</h4>
+
+                                <p class="text-light-blue ">
+                                    I completed my Full-Stack Web Development training at Red & White Multimedia
+                                    Education, where I gained practical experience in both front-end and back-end
+                                    technologies. The program covered essential web development tools and languages
+                                    including HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB. Throughout
+                                    the course, I worked on real-world projects such as e-commerce websites, dashboards,
+                                    and portfolio applications, which helped me develop a strong understanding of
+                                    full-stack architecture. This hands-on training has equipped me with the skills to
+                                    build responsive, dynamic, and scalable web applications.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 col-md-12 p-4">
+                        <div class="row border hover-card-2" data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-easing="linear">
+                            <div class="col-lg-6 col-md-12 p-3">
+                                <img src="img/GTU-removebg-preview.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6 col-md-12 p-2">
+                                <h4 class="fw-bold"
+                                    style="background:linear-gradient(to right, #24CEEE, #537FF0, #DBA1FA);color: transparent;background-clip: text;">
+                                    Full-Stack Devloper</h4>
+
+                                <p class="text-light-blue ">
+                                    I completed my Full-Stack Web Development training at Red & White Multimedia
+                                    Education, where I gained practical experience in both front-end and back-end
+                                    technologies. The program covered essential web development tools and languages
+                                    including HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB. Throughout
+                                    the course, I worked on real-world projects such as e-commerce websites, dashboards,
+                                    and portfolio applications, which helped me develop a strong understanding of
+                                    full-stack architecture. This hands-on training has equipped me with the skills to
+                                    build responsive, dynamic, and scalable web applications.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
         </div>
     </section>
 
 
 </body>
+
+<script>
+    AOS.init();
+</script>
 
 </html>

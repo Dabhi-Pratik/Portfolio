@@ -1,8 +1,8 @@
 .hover-btn:hover{
    color:rgb(255, 255, 255) !important;
    font-weight: 600;
-
-   transform: scale(1.4);
+   /* background-color: rgba(208, 211, 27, 0.199); */
+   transform: scale(1.2);
     transition: all 0.5s;
 }
 
@@ -90,42 +90,78 @@
  
 .s-1:hover{
     border:1px solid rgb(33 150 243) !important;
+    box-shadow: rgb(33 150 243) 0px 10px 20px, rgb(33 150 243) 0px 6px 6px;
+    transform: translateY(-10px);
+    transition: all 0.5s;
 }
 .s-2:hover{
     border:1px solid rgb(255 75 0) !important;
+      box-shadow: rgb(255 75 0) 0px 10px 20px, rgb(255 75 0) 0px 6px 6px;
+     transform: translateY(-10px);
+    transition: all 0.5s;
 }
 .s-3:hover{
     border:1px solid rgb(101 154 210) !important;
+    box-shadow: rgb(101 154 210) 0px 10px 20px, rgb(101 154 210) 0px 6px 6px;
+     transform: translateY(-10px);
+    transition: all 0.5s;
 }
 .s-4:hover{
     border:1px solid rgb(255 193 7) !important;
+    box-shadow: rgb(255 193 7) 0px 10px 20px, rgb(255 193 7) 0px 6px 6px;
+     transform: translateY(-10px);
+    transition: all 0.5s;
 }
 .s-5:hover{
     border:1px solid rgb(0 0 0) !important;
+    box-shadow: rgb(0 0 0) 0px 10px 20px, rgb(0 0 0) 0px 6px 6px;
+     transform: translateY(-10px);
+    transition: all 0.5s;
 }
 .s-6:hover{
     border:1px solid rgb(71 146 65) !important;
+    box-shadow: rgb(71 146 65) 0px 10px 20px, rgb(71 146 65) 0px 6px 6px;
+     transform: translateY(-10px);
+    transition: all 0.5s;
 }
 .s-7:hover{
     border:1px solid rgb(90 218 253) !important;
+    box-shadow: rgb(90 218 253) 0px 10px 20px, rgb(90 218 253) 0px 6px 6px;
+     transform: translateY(-10px);
+    transition: all 0.5s;
 }
 .s-8:hover{
     border:1px solid rgb(238 80 50) !important;
+    box-shadow: rgb(238 80 50) 0px 10px 20px, rgb(238 80 50) 0px 6px 6px;
+     transform: translateY(-10px);
+    transition: all 0.5s;
 }
 .s-9:hover{
     border:1px solid rgb(0, 57, 126) !important;
+    box-shadow: rgb(0, 57, 126) 0px 10px 20px, rgb(0, 57, 126) 0px 6px 6px;
+     transform: translateY(-10px);
+    transition: all 0.5s;
 }
 .s-10:hover{
     border:1px solid rgb(94 59 127) !important;
+    box-shadow: rgb(94 59 127) 0px 10px 20px, rgb(94 59 127) 0px 6px 6px;
+     transform: translateY(-10px);
+    transition: all 0.5s;
 }
 .s-11:hover{
     border:1px solid rgb(120 207 245) !important;
+    box-shadow: rgb(120 207 245) 0px 10px 20px, rgb(120 207 245) 0px 6px 6px;
+     transform: translateY(-10px);
+    transition: all 0.5s;
 }
 .s-12:hover{
     border-top:1px solid rgb(38 130 255) !important;
     border-left:1px solid rgb(38 130 255) !important;
     border-bottom:1px solid rgb(255 205 0) !important;
     border-right:1px solid rgb(255 205 0) !important;
+    box-shadow: rgb(38 130 255) 0px 10px 20px,rgb(255 205 0) 0px 6px 6px , rgb(38 130 255) 0px 10px 20px,rgb(255 205 0) 0px 6px 6px;
+     transform: translateY(-10px);
+    transition: all 0.5s;
 }
 
 
@@ -187,4 +223,20 @@
     box-shadow:lch(29.56% 19.6 241.76) 0px 10px 20px, hsl(197.26deg 61.34% 23.33%) 0px 6px 6px;
     border: 1px solid lch(29.56% 19.6 241.76);
     border-radius: 5px;
+}
+
+.hover-card-1:hover{
+    transform:translateY(-20px) !important;
+        box-shadow:rgb(96, 23, 23) 0px 10px 20px, rgb(96, 23, 23) 0px 6px 6px;
+    border: 1px solid rgb(96, 23, 23);
+    transition: all 0.5s;
+   
+}
+
+.hover-card-2:hover{
+    transform:translateY(-15px) !important;
+     box-shadow:#2e2f93 0px 10px 20px, #2e2f93 0px 6px 6px;
+    border: 1px solid #2e2f93;
+    transition: all 0.5s;
+   
 }
