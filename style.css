@@ -262,3 +262,16 @@
     border: 1px solid oklch(0.56 0.07 220.65) !important;
     transition: all 0.5s; 
 }
+
+.hover-btn-6:hover{
+      background-color: transparent;
+      border: 2px;
+}
+
+
+
+
+
+
+
+
