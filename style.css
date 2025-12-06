@@ -227,6 +227,24 @@
     border-radius: 5px;
 }
 
+.hover-btn-8:hover{
+    box-shadow:lch(61 59.96 56.39) 0px 10px 20px, lch(61 59.96 56.39) 0px 6px 6px;
+    border: 1px solid lch(61 59.96 56.39);
+    border-radius: 5px;
+}
+
+.hover-btn-9:hover{
+    box-shadow:lch(31 40.07 358.41) 0px 10px 20px, lch(31 40.07 358.41) 0px 6px 6px;
+    border: 1px solid lch(31 40.07 358.41);
+    border-radius: 5px;
+}
+
+.hover-btn-10:hover{
+    box-shadow:lch(56 39.61 174.41) 0px 10px 20px, lch(56 39.61 174.41) 0px 6px 6px;
+    border: 1px solid lch(56 39.61 174.41);
+    border-radius: 5px;
+}
+
 .hover-card-1:hover{
     transform:translateY(-20px) !important;
         box-shadow:#58595b 0px 10px 20px, #58595b 0px 6px 6px;
